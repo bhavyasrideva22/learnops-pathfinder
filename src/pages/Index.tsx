@@ -9,7 +9,7 @@ const Index = () => {
 
   const handleStartAssessment = () => {
     setIsStarting(true);
-    // TODO: Navigate to assessment
+    window.location.href = "/assessment";
   };
 
   return (
